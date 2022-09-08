@@ -17,5 +17,22 @@ puts "Creating freebies..."
 # * and a freebie belongs to a company.                         *
 # ***************************************************************
 # Create freebies Here
+Freebie.create(item_name: "something1", value: 100, company_id: 1,dev_id: 1)
+Freebie.create(item_name: "something2", value: 100, company_id: 1, dev_id: 2)
+Freebie.create(item_name: "something3", value: 100, company_id: 1,dev_id: 3)
+Freebie.create(item_name: "something4", value: 100, company_id: 1, dev_id: 4)
+Freebie.create(item_name: "something5", value: 100, company_id: 2,dev_id: 1)
+Freebie.create(item_name: "something6", value: 100, company_id: 2, dev_id: 2)
+Freebie.create(item_name: "something7", value: 100, company_id: 2,dev_id: 3)
+Freebie.create(item_name: "something8", value: 100, company_id: 2, dev_id: 4)
+Freebie.create(item_name: "something9", value: 100, company_id:3,dev_id: 1)
+Freebie.create(item_name: "something10", value: 100, company_id: 3, dev_id: 2)
+Freebie.create(item_name: "something11", value: 100, company_id: 3,dev_id: 3)
+Freebie.create(item_name: "something12", value: 100, company_id: 3, dev_id: 4)
+Freebie.create(item_name: "something13", value: 100, company_id:4,dev_id: 1)
+Freebie.create(item_name: "something14", value: 100, company_id: 4, dev_id: 2)
+Freebie.create(item_name: "something15", value: 100, company_id: 4,dev_id: 3)
+Freebie.create(item_name: "something16", value: 100, company_id: 4, dev_id: 4)
+
 
 puts "Seeding done!"
